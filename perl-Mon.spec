@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include        /usr/lib/rpm/macros.perl
+%include	/usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
 Summary(pl):	Modu³ Perla Mon
 Name:		perl-Mon
