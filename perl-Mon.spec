@@ -1,10 +1,14 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include        /usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
 Summary(pl):	Modu³ perla Mon
 Name:		perl-Mon
 version:	0.11
 Release:	6
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
 # Source0-md5:	762a8c6f845f8f1482a696e6f95f4492
@@ -30,6 +34,8 @@ Aktualnie zaimplementowany jest tylko interfejs klienta.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
