@@ -26,7 +26,7 @@ Aktualnie zaimplementowany jest tylko interfejs klienta.
 %setup -q -n Mon-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
