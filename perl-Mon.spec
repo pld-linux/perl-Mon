@@ -8,7 +8,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.kernel.org/pub/software/admin/mon/Mon-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mon/Mon-%{version}.tar.gz
 URL:		http://www.kernel.org/software/mon/
 BuildArch:	noarch
 BuildRequires:	perl-devel >= 5.6.1
