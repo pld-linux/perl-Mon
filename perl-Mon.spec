@@ -9,8 +9,8 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
 # Source0-md5:	762a8c6f845f8f1482a696e6f95f4492
 URL:		http://www.kernel.org/software/mon/
-BuildArch:	noarch
 BuildRequires:	perl-devel >= 5.6.1
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
    
 %description
@@ -34,7 +34,8 @@ Aktualnie zaimplementowany jest tylko interfejs klienta.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
