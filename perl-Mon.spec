@@ -6,7 +6,7 @@ version:	0.11
 Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mon/Mon-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Mon/Mon-%{version}.tar.gz
 URL:		http://www.kernel.org/software/mon/
 BuildArch:	noarch
 BuildRequires:	perl-devel >= 5.6.1
