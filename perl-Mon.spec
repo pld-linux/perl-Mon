@@ -7,6 +7,7 @@ Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
+# Source0-md5:	762a8c6f845f8f1482a696e6f95f4492
 URL:		http://www.kernel.org/software/mon/
 BuildArch:	noarch
 BuildRequires:	perl-devel >= 5.6.1
