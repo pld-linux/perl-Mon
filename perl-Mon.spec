@@ -3,7 +3,7 @@ Summary:	perl-Mon module
 Summary(pl):	Modu³ perla Mon
 Name:		perl-Mon	
 version:	0.11	
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
@@ -26,7 +26,8 @@ Aktualnie zaimplementowany jest tylko interfejs klienta.
 %setup -q -n Mon-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README
-%{perl_sitelib}/Mon
+%{perl_vendorlib}/Mon
 %{_mandir}/man3/*
