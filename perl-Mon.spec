@@ -3,7 +3,7 @@ Summary:	perl-Mon module
 Summary(pl):	Modu³ perla Mon
 Name:		perl-Mon	
 version:	0.11	
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Mon/Mon-%{version}.tar.gz
