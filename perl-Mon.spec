@@ -6,7 +6,7 @@
 Summary:	perl-Mon module
 Summary(pl):	Modu³ perla Mon
 Name:		perl-Mon
-version:	0.11
+Version:	0.11
 Release:	6
 License:	GPL v2+
 Group:		Development/Languages/Perl
