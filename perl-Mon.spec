@@ -13,7 +13,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
 # Source0-md5:	762a8c6f845f8f1482a696e6f95f4492
 URL:		http://www.kernel.org/software/mon/
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
