@@ -2,13 +2,14 @@
 Summary:	perl-Mon module
 Name:		perl-Mon	
 version:	0.11	
-Release:	1	
+Release:	2	
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.kernel.org/pub/software/admin/mon/Mon-%{version}.tar.gz
 URL:		http://www.kernel.org/software/mon/
+BuildArch:	noarch
 BuildRequires:	perl-devel >= 5.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
    
@@ -35,7 +36,7 @@ gzip -9nf CHANGES README
 %files
 %defattr(644,root,root,755)
 %doc *.gz 
-%{perl_sitelib}/*
+%{perl_sitelib}/Mon
 %{_mandir}/man3/*
 
 %clean
