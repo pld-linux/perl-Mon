@@ -1,8 +1,8 @@
 %include        /usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
 Summary(pl):	Modu³ perla Mon
-Name:		perl-Mon	
-version:	0.11	
+Name:		perl-Mon
+version:	0.11
 Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
@@ -12,7 +12,7 @@ URL:		http://www.kernel.org/software/mon/
 BuildRequires:	perl-devel >= 5.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-   
+
 %description
 This is the Perl5 module for interfacing with the Mon system
 monitoring package. Currently only the client interface is
@@ -28,7 +28,7 @@ Aktualnie zaimplementowany jest tylko interfejs klienta.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
