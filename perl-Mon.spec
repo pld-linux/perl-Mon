@@ -1,8 +1,9 @@
 %include        /usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
+Summary(pl):	Modu³ perla Mon
 Name:		perl-Mon	
 version:	0.11	
-Release:	2	
+Release:	3	
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -19,8 +20,12 @@ monitoring package. Currently only the client interface is
 implemented, but more things like special logging routines and
 persistent monitors are being considered.
 
+%description -l pl
+To jest modu³ perla do komunikacji z systemem monitoruj±cym Mon.
+Aktualnie zaimplementowany jest tylko interfejs klienta.
+
 %prep
-%setup -q  -n Mon-%{version}
+%setup -q -n Mon-%{version}
 
 %build
 perl Makefile.PL
