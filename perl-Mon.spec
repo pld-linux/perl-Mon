@@ -4,7 +4,7 @@
 #
 %include        /usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
-Summary(pl):	Modu³ perla Mon
+Summary(pl):	Modu³ Perla Mon
 Name:		perl-Mon
 Version:	0.11
 Release:	6
@@ -24,7 +24,7 @@ implemented, but more things like special logging routines and
 persistent monitors are being considered.
 
 %description -l pl
-To jest modu³ perla do komunikacji z systemem monitoruj±cym Mon.
+To jest modu³ Perla do komunikacji z systemem monitoruj±cym Mon.
 Aktualnie zaimplementowany jest tylko interfejs klienta.
 
 %prep
