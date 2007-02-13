@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	perl-Mon module
-Summary(pl.UTF-8):   Moduł Perla Mon
+Summary(pl.UTF-8):	Moduł Perla Mon
 Name:		perl-Mon
 Version:	0.11
 Release:	6
