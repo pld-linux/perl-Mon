@@ -7,7 +7,7 @@ Summary:	perl-Mon module
 Summary(pl.UTF-8):	Moduł Perla Mon
 Name:		perl-Mon
 Version:	0.11
-Release:	6
+Release:	7
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mon/Mon-%{version}.tar.gz
